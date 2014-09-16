@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25677B5C19AFEB4200819879 /* feed_comment_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25677B5819AFEB4200819879 /* feed_comment_icon@2x.png */; };
+		25677B5D19AFEB4200819879 /* feed_like_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25677B5919AFEB4200819879 /* feed_like_icon@2x.png */; };
+		25677B5E19AFEB4200819879 /* feed_likeinactive_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25677B5A19AFEB4200819879 /* feed_likeinactive_icon@2x.png */; };
+		25677B5F19AFEB4200819879 /* feed_share_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25677B5B19AFEB4200819879 /* feed_share_icon@2x.png */; };
 		25C2683D194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C2683C194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg */; };
 		25C2683F194CE74C00A5D0C0 /* estante_1b_75_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C2683E194CE74C00A5D0C0 /* estante_1b_75_b.jpg */; };
 		25E11E4819312224008023AB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E11E4719312224008023AB /* SearchViewController.m */; };
@@ -48,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25677B5819AFEB4200819879 /* feed_comment_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_comment_icon@2x.png"; sourceTree = "<group>"; };
+		25677B5919AFEB4200819879 /* feed_like_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_like_icon@2x.png"; sourceTree = "<group>"; };
+		25677B5A19AFEB4200819879 /* feed_likeinactive_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_likeinactive_icon@2x.png"; sourceTree = "<group>"; };
+		25677B5B19AFEB4200819879 /* feed_share_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_share_icon@2x.png"; sourceTree = "<group>"; };
 		25C2683C194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wallpapers Book - lerimaginarcriar.blogspot (42).jpg"; sourceTree = "<group>"; };
 		25C2683E194CE74C00A5D0C0 /* estante_1b_75_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = estante_1b_75_b.jpg; sourceTree = "<group>"; };
 		25E11E4619312224008023AB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
@@ -118,6 +126,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25677B6019AFEB6700819879 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				25C2683C194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg */,
+				25C2683E194CE74C00A5D0C0 /* estante_1b_75_b.jpg */,
+				25677B5819AFEB4200819879 /* feed_comment_icon@2x.png */,
+				25677B5919AFEB4200819879 /* feed_like_icon@2x.png */,
+				25677B5A19AFEB4200819879 /* feed_likeinactive_icon@2x.png */,
+				25677B5B19AFEB4200819879 /* feed_share_icon@2x.png */,
+				25E12C2F192F287100BFBF2D /* PUCPR.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		25E12BE1192F231D00BFBF2D = {
 			isa = PBXGroup;
 			children = (
@@ -156,9 +178,7 @@
 				25E12BFD192F231D00BFBF2D /* AppDelegate.m */,
 				25E12BFF192F231D00BFBF2D /* Main_iPhone.storyboard */,
 				25E12C02192F231D00BFBF2D /* Main_iPad.storyboard */,
-				25C2683C194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg */,
-				25C2683E194CE74C00A5D0C0 /* estante_1b_75_b.jpg */,
-				25E12C2F192F287100BFBF2D /* PUCPR.png */,
+				25677B6019AFEB6700819879 /* images */,
 				25E12C08192F231D00BFBF2D /* Images.xcassets */,
 				25E11E4619312224008023AB /* SearchViewController.h */,
 				25E11E4719312224008023AB /* SearchViewController.m */,
@@ -306,10 +326,14 @@
 				25E12C04192F231D00BFBF2D /* Main_iPad.storyboard in Resources */,
 				25C2683D194CE37E00A5D0C0 /* Wallpapers Book - lerimaginarcriar.blogspot (42).jpg in Resources */,
 				25E12C09192F231D00BFBF2D /* Images.xcassets in Resources */,
+				25677B5C19AFEB4200819879 /* feed_comment_icon@2x.png in Resources */,
+				25677B5D19AFEB4200819879 /* feed_like_icon@2x.png in Resources */,
 				25E12C01192F231D00BFBF2D /* Main_iPhone.storyboard in Resources */,
+				25677B5F19AFEB4200819879 /* feed_share_icon@2x.png in Resources */,
 				25C2683F194CE74C00A5D0C0 /* estante_1b_75_b.jpg in Resources */,
 				25E12BF8192F231D00BFBF2D /* InfoPlist.strings in Resources */,
 				25E12C30192F287100BFBF2D /* PUCPR.png in Resources */,
+				25677B5E19AFEB4200819879 /* feed_likeinactive_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

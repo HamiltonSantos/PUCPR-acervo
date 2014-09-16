@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "AFNetworking.h"
 
-@interface SearchViewController : UIViewController <UISearchDisplayDelegate,UISearchBarDelegate>
+@interface SearchViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchDisplayDelegate,UISearchControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *authorLabel;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *callNumberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *bookImage;
+@property (strong, nonatomic) NSArray *results;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
