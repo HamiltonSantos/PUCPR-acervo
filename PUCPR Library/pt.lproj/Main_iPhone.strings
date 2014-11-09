@@ -1,0 +1,135 @@
+
+/* Class = "IBUILabel"; text = "nonono"; ObjectID = "1BG-On-8va"; */
+"1BG-On-8va.text" = "nonono";
+
+/* Class = "IBUINavigationItem"; title = "Search"; ObjectID = "1pK-5k-hu9"; */
+"1pK-5k-hu9.title" = "Busca";
+
+/* Class = "IBUILabel"; text = "Atas"; ObjectID = "5ZR-Vv-7Pz"; */
+"5ZR-Vv-7Pz.text" = "Atas";
+
+/* Class = "IBUILabel"; text = "nonono"; ObjectID = "7yT-7a-5vM"; */
+"7yT-7a-5vM.text" = "nonono";
+
+/* Class = "IBUILabel"; text = "Campus Londrina"; ObjectID = "AAf-xX-nWL"; */
+"AAf-xX-nWL.text" = "Campus Londrina";
+
+/* Class = "IBUILabel"; text = "Todos"; ObjectID = "AYp-ri-nMR"; */
+"AYp-ri-nMR.text" = "Todos";
+
+/* Class = "IBUILabel"; text = "Título"; ObjectID = "HRa-J3-1vW"; */
+"HRa-J3-1vW.text" = "Título";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancelar"; ObjectID = "HgV-iV-8It"; */
+"HgV-iV-8It.title" = "Cancelar";
+
+/* Class = "IBUINavigationItem"; title = "Map"; ObjectID = "Ihi-OA-bNF"; */
+"Ihi-OA-bNF.title" = "Map";
+
+/* Class = "IBUINavigationItem"; title = "Início"; ObjectID = "KGj-gg-BM9"; */
+"KGj-gg-BM9.title" = "Início";
+
+/* Class = "IBUIButton"; normalTitle = "Minhas reservas"; ObjectID = "POl-Ou-FA0"; */
+"POl-Ou-FA0.normalTitle" = "Minhas reservas";
+
+/* Class = "IBUINavigationItem"; title = "Reserve Title"; ObjectID = "QBN-k9-7En"; */
+"QBN-k9-7En.title" = "Reserve Title";
+
+/* Class = "IBUILabel"; text = "Fotografias"; ObjectID = "QiR-Y5-H1D"; */
+"QiR-Y5-H1D.text" = "Fotografias";
+
+/* Class = "IBUILabel"; text = "Relatórios"; ObjectID = "S5k-mg-Zri"; */
+"S5k-mg-Zri.text" = "Relatórios";
+
+/* Class = "IBUILabel"; text = "Location:"; ObjectID = "SCE-Jl-pr8"; */
+"SCE-Jl-pr8.text" = "Location:";
+
+/* Class = "IBUILabel"; text = "Notícias"; ObjectID = "Se4-Ll-HUc"; */
+"Se4-Ll-HUc.text" = "Notícias";
+
+/* Class = "IBUILabel"; text = "Autor"; ObjectID = "TSZ-Nk-HGB"; */
+"TSZ-Nk-HGB.text" = "Autor";
+
+/* Class = "IBUILabel"; text = "Livros"; ObjectID = "WSm-GQ-MaJ"; */
+"WSm-GQ-MaJ.text" = "Livros";
+
+/* Class = "IBUIBarButtonItem"; title = "Salvar"; ObjectID = "WcO-ZW-9az"; */
+"WcO-ZW-9az.title" = "Salvar";
+
+/* Class = "IBUILabel"; text = "Assunto"; ObjectID = "YCf-38-ERH"; */
+"YCf-38-ERH.text" = "Assunto";
+
+/* Class = "IBUILabel"; text = "Pastas"; ObjectID = "Ymu-MQ-DgF"; */
+"Ymu-MQ-DgF.text" = "Pastas";
+
+/* Class = "IBUILabel"; text = "nonono"; ObjectID = "Z3e-CZ-qln"; */
+"Z3e-CZ-qln.text" = "nonono";
+
+/* Class = "IBUINavigationItem"; title = "Tipo de obra"; ObjectID = "ZE8-N5-6XR"; */
+"ZE8-N5-6XR.title" = "Tipo de obra";
+
+/* Class = "IBUILabel"; text = "Regulamentos"; ObjectID = "ZSg-4L-nyx"; */
+"ZSg-4L-nyx.text" = "Regulamentos";
+
+/* Class = "IBUILabel"; text = "Base de dados"; ObjectID = "Zxd-tk-0i9"; */
+"Zxd-tk-0i9.text" = "Base de dados";
+
+/* Class = "IBUINavigationItem"; title = "Buscar"; ObjectID = "a34-xn-tKa"; */
+"a34-xn-tKa.title" = "Buscar";
+
+/* Class = "IBUILabel"; text = "Unidade de informação"; ObjectID = "aTf-Jo-XHB"; */
+"aTf-Jo-XHB.text" = "Unidade de informação";
+
+/* Class = "IBUILabel"; text = "Author:"; ObjectID = "ajs-CD-oro"; */
+"ajs-CD-oro.text" = "Author:";
+
+/* Class = "IBUILabel"; text = "Livre"; ObjectID = "bAX-yS-phS"; */
+"bAX-yS-phS.text" = "Livre";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancelar"; ObjectID = "cnS-FF-OPo"; */
+"cnS-FF-OPo.title" = "Cancelar";
+
+/* Class = "IBUILabel"; text = "Artigos"; ObjectID = "e43-vl-OlO"; */
+"e43-vl-OlO.text" = "Artigos";
+
+/* Class = "IBUIBarButtonItem"; title = "Salvar"; ObjectID = "eKv-Gv-TLe"; */
+"eKv-Gv-TLe.title" = "Salvar";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancelar"; ObjectID = "f1Z-qs-BkH"; */
+"f1Z-qs-BkH.title" = "Cancelar";
+
+/* Class = "IBUINavigationItem"; title = "Unidade de informação"; ObjectID = "gQi-er-Lbf"; */
+"gQi-er-Lbf.title" = "Unidade de informação";
+
+/* Class = "IBUISearchDisplayController"; searchResultsTitle = "Resultados"; ObjectID = "itz-XF-dcw"; */
+"itz-XF-dcw.searchResultsTitle" = "Resultados";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "jD6-ww-Evy"; */
+"jD6-ww-Evy.text" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "Renovar reserva"; ObjectID = "jIV-NQ-Suv"; */
+"jIV-NQ-Suv.normalTitle" = "Renovar reserva";
+
+/* Class = "IBUILabel"; text = "Call Number:"; ObjectID = "jaP-3q-xAs"; */
+"jaP-3q-xAs.text" = "Call Number:";
+
+/* Class = "IBUILabel"; text = "Cartas"; ObjectID = "jng-7s-GwF"; */
+"jng-7s-GwF.text" = "Cartas";
+
+/* Class = "IBUILabel"; text = "Buscar por"; ObjectID = "ofR-p2-LWi"; */
+"ofR-p2-LWi.text" = "Buscar por";
+
+/* Class = "IBUILabel"; text = "Campus Curitiba"; ObjectID = "pEA-FO-b0O"; */
+"pEA-FO-b0O.text" = "Campus Curitiba";
+
+/* Class = "IBUILabel"; text = "Certificados"; ObjectID = "vue-OC-YWH"; */
+"vue-OC-YWH.text" = "Certificados";
+
+/* Class = "IBUINavigationItem"; title = "Buscar por"; ObjectID = "yDg-1x-iiw"; */
+"yDg-1x-iiw.title" = "Buscar por";
+
+/* Class = "IBUIButton"; normalTitle = "Consulta ao acervo"; ObjectID = "yHb-Q3-Myg"; */
+"yHb-Q3-Myg.normalTitle" = "Consulta ao acervo";
+
+/* Class = "IBUILabel"; text = "Tipo de obra"; ObjectID = "zyF-rV-t51"; */
+"zyF-rV-t51.text" = "Tipo de obra";

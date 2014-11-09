@@ -1,25 +1,28 @@
 //
-//  SearchTableViewController.m
+//  ResultsTableViewController.m
 //  PUCPR Library
 //
 //  Created by Hamilton Carlos da Silva Santos on 9/21/14.
 //  Copyright (c) 2014 Hamilton Carlos da Silva Santos. All rights reserved.
 //
 
-#import "SearchViewController.h"
 #import "ResultsTableViewController.h"
+#import "DetailsViewController.h"
 
-@interface SearchViewController () <SMWebServiceDelegate>
+@interface ResultsTableViewController ()
 
 @end
 
-@implementation SearchViewController
+@implementation ResultsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _filterButton.layer.borderColor = [[UIColor whiteColor] CGColor];
     
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
     
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,37 +63,13 @@
     
     return cell;
 }
-//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    _selectedBook = _results[indexPath.row];
-//    [self performSegueWithIdentifier:@"pushDetail" sender:self];
-//}
-//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//    if([segue.identifier isEqualToString:@"pushDetail"]){
-//        DetailsViewController *controller = (DetailsViewController *)segue.destinationViewController;
-//        controller.book = _selectedBook;
-//    }
-//}
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    [SMWebService searchBooks:textField.text delegate:self];
-    return YES;
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    _selectedBook = _results[indexPath.row];
+    [self performSegueWithIdentifier:@"pushDetail" sender:self];
 }
-
--(void)webServiceWithMethod:(SMWebserviceType)method data:(NSArray *)data error:(BOOL)error show:(void (^)(BOOL))block{
-    //Se tiver erro exibe alerta
-    if (error){
-        [[[UIAlertView alloc] initWithTitle:nil
-                                    message:@"Houve um problema, por favor tente mais tarde."
-                                   delegate:nil
-                          cancelButtonTitle:@"Ok"
-                          otherButtonTitles:nil, nil] show];
-    }else{
-        _results = data;
-        [_resultsTable reloadData];
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"pushDetail"]){
+        DetailsViewController *controller = (DetailsViewController *)segue.destinationViewController;
+        controller.book = _selectedBook;
     }
-}
-
-
-- (IBAction)dismiss:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-@end
+}@end

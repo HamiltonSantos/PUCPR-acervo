@@ -1,21 +1,15 @@
 //
-//  SearchViewController.h
+//  SearchTableViewController.h
 //  PUCPR Library
 //
-//  Created by Hamilton Carlos da Silva Santos on 5/24/14.
+//  Created by Hamilton Carlos da Silva Santos on 9/21/14.
 //  Copyright (c) 2014 Hamilton Carlos da Silva Santos. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AFNetworking.h"
 
-@interface SearchViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchDisplayDelegate,UISearchControllerDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *authorLabel;
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *callNumberLabel;
-@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *bookImage;
-@property (strong, nonatomic) NSArray *results;
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
-
+@interface SearchViewController : UIViewController <UITableViewDelegate,UITextFieldDelegate>
+@property (nonatomic, strong) NSArray *results;
+@property (weak, nonatomic) IBOutlet UIButton *filterButton;
+@property (weak, nonatomic) IBOutlet UITableView *resultsTable;
 @end
