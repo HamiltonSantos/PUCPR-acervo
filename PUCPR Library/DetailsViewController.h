@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AFNetworking.h"
 
-@interface DetailsViewController : UIViewController
+@interface DetailsViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UILabel *authorLabel;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *callNumberLabel;

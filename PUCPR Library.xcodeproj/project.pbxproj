@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2534C1EC1A18F457007B9737 /* HSFilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2534C1EB1A18F457007B9737 /* HSFilterTableViewController.m */; };
 		253F0F7719CF238800B3A7CC /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F0F7619CF238800B3A7CC /* ResultsTableViewController.m */; };
 		255ADB2B19CF1F5100FC856D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ADB2A19CF1F5100FC856D /* SearchViewController.m */; };
 		25677B5C19AFEB4200819879 /* feed_comment_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25677B5819AFEB4200819879 /* feed_comment_icon@2x.png */; };
@@ -85,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2534C1EA1A18F457007B9737 /* HSFilterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFilterTableViewController.h; sourceTree = "<group>"; };
+		2534C1EB1A18F457007B9737 /* HSFilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFilterTableViewController.m; sourceTree = "<group>"; };
 		253F0F7519CF238800B3A7CC /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
 		253F0F7619CF238800B3A7CC /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 		253F0F7819CF24E700B3A7CC /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
@@ -398,6 +401,8 @@
 		25E12BE1192F231D00BFBF2D = {
 			isa = PBXGroup;
 			children = (
+				2534C1EA1A18F457007B9737 /* HSFilterTableViewController.h */,
+				2534C1EB1A18F457007B9737 /* HSFilterTableViewController.m */,
 				25E12BF3192F231D00BFBF2D /* PUCPR Library */,
 				25E12C15192F231E00BFBF2D /* PUCPR LibraryTests */,
 				25E12BEC192F231D00BFBF2D /* Frameworks */,
@@ -641,6 +646,7 @@
 				256DB4F919CA405F000EF562 /* RTSpinKitView.m in Sources */,
 				25EEFE32198425B80089CCCB /* AFHTTPRequestOperation.m in Sources */,
 				256DB4C319CA4032000EF562 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				2534C1EC1A18F457007B9737 /* HSFilterTableViewController.m in Sources */,
 				25E11E4819312224008023AB /* DetailsViewController.m in Sources */,
 				25EEFE38198425B80089CCCB /* AFURLRequestSerialization.m in Sources */,
 				25EEFE34198425B80089CCCB /* AFHTTPSessionManager.m in Sources */,

@@ -60,18 +60,22 @@
     
     return cell;
 }
-//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    _selectedBook = _results[indexPath.row];
-//    [self performSegueWithIdentifier:@"pushDetail" sender:self];
-//}
-//-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-//    if([segue.identifier isEqualToString:@"pushDetail"]){
-//        DetailsViewController *controller = (DetailsViewController *)segue.destinationViewController;
-//        controller.book = _selectedBook;
-//    }
-//}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    _selectedBook = _results[indexPath.row];
+    [self performSegueWithIdentifier:@"modalDetail" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"modalDetail"]){
+        UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
+        DetailsViewController *controller = navController.viewControllers[0];
+        controller.book = _selectedBook;
+    }
+}
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
     [SMWebService searchBooks:textField.text delegate:self];
+    
     return YES;
 }
 
@@ -86,6 +90,7 @@
     }else{
         _results = data;
         [_resultsTable reloadData];
+
     }
 }
 

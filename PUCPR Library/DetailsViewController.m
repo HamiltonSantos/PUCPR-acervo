@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"lotr"]]];
     // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated{
@@ -57,6 +58,18 @@
     
     
 }
+- (IBAction)dismiss:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
+-(void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section{
+    view.tintColor = [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:.3];
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    [header.textLabel setTextColor:[UIColor whiteColor]];
+}
+
+-(void)webServiceWithMethod:(SMWebserviceType)method data:(id)data error:(BOOL)error show:(void (^)(BOOL))block{
+    
+}
 
 @end

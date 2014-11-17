@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailsViewController.h"
 
 @interface SearchViewController : UIViewController <UITableViewDelegate,UITextFieldDelegate>
 @property (nonatomic, strong) NSArray *results;
 @property (weak, nonatomic) IBOutlet UIButton *filterButton;
 @property (weak, nonatomic) IBOutlet UITableView *resultsTable;
+@property (strong, nonatomic) NSDictionary *selectedBook;
 @end
